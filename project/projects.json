@@ -1,0 +1,53 @@
+[
+    {
+        "id": "Bibilava.io",
+        "title": "Bibilava.io",
+        "shortDescription": "A multiplayer unity game inspired by the famous game slither.io",
+        "date": "January 2025",
+        "images": ["../img/Bibilava.io/bibilava.io_multi.jpg", "../img/Bibilava.io/bibilava.io_connexion.jpg", "../img/Bibilava.io/bibilava.io_solo.jpg", "../img/Bibilava.io/bibilava.io_multi.jpg"],
+        "fullDescriptions": [
+            "Bibilava.io is a multiplayer game inspired by the famous game slither.io.", 
+            "The goal is to eat the most food to grow up and be the biggest snake (each apple makes the snake grow by one).", 
+            "In a collision between two snakes, if they collide with their heads, the biggest snake eats the smallest one. If a player's head collides with another snake's body, the player dies and the other snake eats the player's body. You can also loose by colliding with the wall.",
+            "This small project was made in Unity with the Netcode package. The game is either hosted on a server or by the player (a host is both the server and a client) and the players can connect to it.",
+            "The primary goal of this project is to learn how to use the Netcode package and to create a multiplayer game.",
+            "I chose to use a server authoritative model, it reduces the risk of cheating and makes the game more stable. The server is the only one who can modify the game state and the clients only send their inputs to the server. I also implemented a client server movement prediction to make the game more fluid and responsive.",
+            ""
+        ],
+        "gitLink": "https://github.com/SandiFlorent/Bibilava.io",
+        "technologies": ["Unity", "Netcode", "C#", "Rider"]
+    },
+    {
+        "id": "Lowatem",
+        "title": "Lowatem",
+        "date": "December 2024",
+        "shortDescription": "A turn-based JavaFx board game",
+        "images": ["../img/Lowatem/Lowatem-2.png", "../img/Lowatem/Lowatem-1.png", "../img/Lowatem/Lowatem_gameOver.jpg"],
+        "fullDescriptions": [
+            "Lowatem is a turn-based board game using JavaFx. ",
+            "In this game, a player (Red) is against the computer (Black). There's many type of units, soldier, plane, boat, etc... Each unit has a different movement range and cost, attack range, damage and health. Also according to the unit type, it can move on different field (boat only on water, soldier on land, plane everywhere, etc...). Each case also has an altitude, which affect the movement cost of the unit.",
+            "To choose an action, the player has to click on one of his unit and drag it to destination (it can stay on the same case) and then attack an enemy in his ranged if wanted.",
+            "Choosing an invalid action will disqualify the player and end the game. For exemple if the player try to move a soldier on water, or if he try to move an enemy unit.",
+            "The game is over when the player or the computer has no more unit to play or when the required number of turn is reached.",
+            "This project is first year project IT student I did to help my pupils in my tutoring class. My role was to calculate all the possible actions for the player and realize exhaustive tests to ensure the game was working properly.",
+            "Lowatem asserts the ability to use arrays, loops, conditions and algorithms such as Manhattan distance calculation. "
+        ],
+        "gitLink": "https://github.com/user/project-one",
+        "technologies": ["Java", "JavaFx","JUnit", "Netbeans"]
+    },
+    {
+        "id": "Graph Viewer",
+        "title": "Graph Viewer",
+        "date": "May 2024",
+        "shortDescription": "",
+        "images": ["../img/GraphViewer/us-migration-bundle.jpg", "../img/GraphViewer/us-migration-spanningTree.jpg", "../img/GraphViewer/us-migration.jpg", "../img/GraphViewer/ubc.jpg", "../img/GraphViewer/ubc-spanningTree.jpg", "../img/GraphViewer/ubc-spanningTree.jpg"],
+        "fullDescriptions": [
+            "The graph viewer is a JavaFx application that allows the user to visualize a graph, its minimum spanning tree and the bundle graph, which is a graph that contains all the minimum spanning trees of the original graph.",
+            "The graphs are loaded from files that each contains the nodes and the edges of the graph. The user can also create a graph by adding nodes and edges manually.",
+            "To realize this project, I had to understand graph theory. This project is using Dijkstra's algorithm to find the minimum spanning tree and the bundle graph. It also uses Breadth First Search to find the connected components of the graph.",
+            "This project was such an incredible way to practice my graph theory knowledge, being able to withstand our direct production, success and failure is awesome."
+        ],
+        "gitLink": "https://github.com/user/project-two",
+        "technologies": ["JavaFx", "Java", "JUnit", "Netbeans"]
+    }
+]

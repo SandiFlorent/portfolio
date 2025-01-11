@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="../style/styles.css">   
+    <link rel="stylesheet" href="../style/detail-projet.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+        <!-- Floating navbar -->
+        <div class="floating-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    <div id="project-details">
+        <h1 id="project-title"></h1>
+        <!-- Add a new element for the date -->
+        <h2 id="project-date"></h2>  <!-- This is where the date will appear -->
+        <a id="project-git-link" href="#" target="_blank">GitHub</a>
+        <div id="project-images" class="project-images"></div>
+        <div id="project-full-descriptions"></div>
+        <ul id="project-technologies"></ul>
+    </div>    
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <a href="mailto:sandi.florent9@gmail.com">sandi.florent9@gmail.com</a><br>
+            <a href="tel:+33775953320">+33 7 95 33 20</a><br>
+            <a href="https://github.com/SandiFlorent">Github</a><br>
+            <a href="https://www.linkedin.com/in/florent-sandi-7b1b3b1b4/">LinkedIn</a>
+        </section>
+
+        <section>
+            <p>IT is a funny industry. You work on a project, you deliver it, and you're like, "What's next?"</p>
+        </section>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="../project/projects.js"></script>
+
+</body>
+
+</html>
+
+<script>
+    // In project-details.js
+
+document.addEventListener("DOMContentLoaded", function () {
+    const projectId = localStorage.getItem("selectedProjectId");
+    if (!projectId) return;
+
+    fetch("../project/projects.json")  // Adjust this path if needed
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);  // Log the data to check if it's fetched correctly
+
+            const project = data.find(proj => proj.id === projectId);
+            if (!project) return;
+
+            // Populate title
+            document.getElementById("project-title").innerText = project.title;
+
+            // Populate the date (newly added)
+            document.getElementById("project-date").innerText = project.date;
+
+            // Populate GitHub link
+            const gitLink = document.getElementById("project-git-link");
+            gitLink.href = project.gitLink;
+            gitLink.textContent = `GitHub - ${project.title}`;
+
+            // Populate images
+            const imagesContainer = document.getElementById("project-images");
+            project.images.forEach(image => {
+                const imgElement = document.createElement("img");
+                imgElement.src = image;
+                imgElement.alt = `${project.title} Image`;
+                imagesContainer.appendChild(imgElement);
+            });
+
+            // Populate full descriptions
+            const descriptionsContainer = document.getElementById("project-full-descriptions");
+            project.fullDescriptions.forEach(description => {
+                const p = document.createElement("p");
+                p.textContent = description;
+                descriptionsContainer.appendChild(p);
+            });
+
+            // Populate technologies
+            const techList = document.getElementById("project-technologies");
+            project.technologies.forEach(tech => {
+                const li = document.createElement("li");
+                li.textContent = tech;
+                techList.appendChild(li);
+            });
+        })
+        .catch(error => console.error("Error fetching data:", error));  // Handle any error fetching the JSON
+});
+
+</script>

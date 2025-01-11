@@ -1,0 +1,343 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #0b1120;
+    transition: background 0.3s ease;
+}
+
+
+.flying-circle {
+    width: 50px;
+    height: 50px;
+    background-color: transparent; /* Make the circle transparent */
+    color: #ffffff; /* White arrow color */
+    border: 2px solid #61dafb; /* Add a white border */
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    animation: bounce 2s infinite; /* Keeps the bounce animation */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 50px; /* Adjust the spacing relative to the hero content */
+    position: relative; /* Ensure p
+
+.flying-circle .arrow {
+    font-size: 20px; /* Adjust the arrow size */
+    color: #61dafb; /* Ensure the arrow is white */
+    font-weight: normal; /* Set the arrow font weight to normal */
+}
+
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0 0;
+    color: #aaa;
+}
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Only vertical movement */
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Projects Section */
+#work {
+    padding: 2rem;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increase the minimum size */
+    gap: 1.5rem; /* Increase the gap between the cards */
+    justify-items: center; /* Ensures cards are centered in each column */
+    justify-content: center; /* Ensures the entire grid is centered */
+    width: 100%; /* Ensures the grid spans the full width of the container */
+}
+
+.card {
+    max-width: 400px; /* Increased the card size */
+    width: 100%; /* Makes the card take up full width of its container */
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.image {
+    width: 100%;
+    height: 250px; /* Increased height of the card image */
+    background-color: rgb(239, 205, 255);
+    object-fit: cover;
+}
+
+.content {
+    padding: 1.5rem; /* Increased padding inside the card */
+}
+
+.title {
+    color: #111827;
+    font-size: 1.25rem; /* Increased font size for the title */
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 1rem; /* Increased font size for the description */
+    line-height: 1.5rem;
+}
+
+.action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 1rem; /* Increased font size for the action button */
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 6px 12px; /* Increased padding for the action button */
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.action:hover span {
+    transform: translateX(4px);
+}
+
+/* Navbar Styles */
+.floating-navbar, .sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    background: rgba(11, 17, 32, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    transition: top 1s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.floating-navbar {
+    background: none;
+}
+
+.sticky-navbar {
+    top: -100px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+body.scrolled .sticky-navbar {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+}
+
+#project_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: inherit;
+    position: relative; /* Needed for layout anchoring */
+}
+
+a.flying-circle {
+    margin-top: 50px;
+}
+
+header{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.image {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(239, 205, 255);
+    object-fit: cover;
+}
+
+.content {
+    padding: 1.1rem;
+}
+
+.title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.action:hover span {
+    transform: translateX(4px);
+}
+
+/* Styling for the date */
+#project-date {
+    font-size: 1.25rem;
+    color: #6B7280;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #AA7DCE;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #1F2937; /* Dark gray background */
+    color: #F9FAFB; /* Light text */
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+footer a {
+    color: #60A5FA; /* Light blue for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #3B82F6; /* Darker blue on hover */
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #F3F4F6; /* Slightly lighter text for headings */
+}
+
+footer section {
+    margin-bottom: 2rem;
+}
+
+footer section p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+footer section:last-of-type p {
+    font-style: italic;
+    color: #9CA3AF; /* Light gray for the quote */
+}
+
+footer a + br {
+    margin-bottom: 0.5rem;
+}
