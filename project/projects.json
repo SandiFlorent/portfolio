@@ -4,7 +4,7 @@
         "title": "Bibilava.io",
         "shortDescription": "A multiplayer unity game inspired by the famous game slither.io",
         "date": "January 2025",
-        "images": ["/portfolio/img/Bibilava.io/bibilava.io_multi.jpg", "../img/Bibilava.io/bibilava.io_connexion.jpg", "../img/Bibilava.io/bibilava.io_solo.jpg", "../img/Bibilava.io/bibilava.io_multi.jpg"],
+        "images": ["/portfolio/img/Bibilava.io/bibilava.io_multi.jpg", "/portfolio/img/Bibilava.io/bibilava.io_connexion.jpg", "/portfolio/img/Bibilava.io/bibilava.io_solo.jpg", "/portfolio/img/Bibilava.io/bibilava.io_multi.jpg"],
         "fullDescriptions": [
             "Bibilava.io is a multiplayer game inspired by the famous game slither.io.", 
             "The goal is to eat the most food to grow up and be the biggest snake (each apple makes the snake grow by one).", 
@@ -22,7 +22,7 @@
         "title": "Lowatem",
         "date": "December 2024",
         "shortDescription": "A turn-based JavaFx board game",
-        "images": ["../img/Lowatem/Lowatem-2.png", "../img/Lowatem/Lowatem-1.png", "../img/Lowatem/Lowatem_gameOver.jpg"],
+        "images": ["/portfolio/img/Lowatem/Lowatem-2.png", "/portfolio/img/Lowatem/Lowatem-1.png", "/portfolio/img/Lowatem/Lowatem_gameOver.jpg"],
         "fullDescriptions": [
             "Lowatem is a turn-based board game using JavaFx. ",
             "In this game, a player (Red) is against the computer (Black). There's many type of units, soldier, plane, boat, etc... Each unit has a different movement range and cost, attack range, damage and health. Also according to the unit type, it can move on different field (boat only on water, soldier on land, plane everywhere, etc...). Each case also has an altitude, which affect the movement cost of the unit.",
@@ -40,7 +40,7 @@
         "title": "Graph Viewer",
         "date": "May 2024",
         "shortDescription": "",
-        "images": ["../img/GraphViewer/us-migration-bundle.jpg", "../img/GraphViewer/us-migration-spanningTree.jpg", "../img/GraphViewer/us-migration.jpg", "../img/GraphViewer/ubc.jpg", "../img/GraphViewer/ubc-spanningTree.jpg", "../img/GraphViewer/ubc-spanningTree.jpg"],
+        "images": ["/portfolio/img/GraphViewer/us-migration-bundle.jpg", "/portfolio/img/GraphViewer/us-migration-spanningTree.jpg", "/portfolio/img/GraphViewer/us-migration.jpg", "/portfolio/img/GraphViewer/ubc.jpg", "/portfolio/img//GraphViewer/ubc-spanningTree.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg"],
         "fullDescriptions": [
             "The graph viewer is a JavaFx application that allows the user to visualize a graph, its minimum spanning tree and the bundle graph, which is a graph that contains all the minimum spanning trees of the original graph.",
             "The graphs are loaded from files that each contains the nodes and the edges of the graph. The user can also create a graph by adding nodes and edges manually.",
