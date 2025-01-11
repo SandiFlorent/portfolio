@@ -22,7 +22,7 @@
         "title": "Lowatem",
         "date": "December 2024",
         "shortDescription": "A turn-based JavaFx board game",
-        "images": ["/portfolio/img/Lowatem/Lowatem-2.png", "/portfolio/img/Lowatem/Lowatem-1.png", "/portfolio/img/Lowatem/FailedAction.jpg"],
+        "images": ["/portfolio/img/Lowatem/Lowatem-2.png", "/portfolio/img/Lowatem/Lowatem-1.png", "/portfolio/img/Lowatem/Lowatem-FailedAction.jpg"],
         "fullDescriptions": [
             "Lowatem is a turn-based board game using JavaFx. ",
             "In this game, a player (Red) is against the computer (Black). There's many type of units, soldier, plane, boat, etc... Each unit has a different movement range and cost, attack range, damage and health. Also according to the unit type, it can move on different field (boat only on water, soldier on land, plane everywhere, etc...). Each case also has an altitude, which affect the movement cost of the unit.",
