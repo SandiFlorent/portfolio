@@ -2,7 +2,7 @@
     {
         "id": "Bibilava.io",
         "title": "Bibilava.io",
-        "shortDescription": "A multiplayer unity game inspired by the famous game slither.io",
+        "shortDescription": "A Unity multiplayer game inspired by the famous slither.io",
         "date": "January 2025",
         "images": ["/portfolio/img/Bibilava.io/bibilava.io_multi.jpg", "/portfolio/img/Bibilava.io/bibilava.io_connexion.jpg", "/portfolio/img/Bibilava.io/bibilava.io_solo.jpg", "/portfolio/img/Bibilava.io/bibilava.io_multi.jpg"],
         "fullDescriptions": [
@@ -15,39 +15,109 @@
             ""
         ],
         "gitLink": "https://github.com/SandiFlorent/Bibilava.io",
-        "technologies": ["Unity", "Netcode", "C#", "Rider"]
+        "technologies": ["Unity", "Netcode", "C#", "Rider", "GitHub"]
     },
     {
         "id": "Lowatem",
         "title": "Lowatem",
         "date": "December 2024",
-        "shortDescription": "A turn-based JavaFx board game",
+        "shortDescription": "A Java turn-based board game",
         "images": ["/portfolio/img/Lowatem/Lowatem-2.png", "/portfolio/img/Lowatem/Lowatem-1.png", "/portfolio/img/Lowatem/Lowatem-FailedAction.jpg"],
         "fullDescriptions": [
-            "Lowatem is a turn-based board game using JavaFx. ",
+            "Lowatem is a turn-based board game using JavaFx where player fights with their pawns to defeat the enemy.",
             "In this game, a player (Red) is against the computer (Black). There's many type of units, soldier, plane, boat, etc... Each unit has a different movement range and cost, attack range, damage and health. Also according to the unit type, it can move on different field (boat only on water, soldier on land, plane everywhere, etc...). Each case also has an altitude, which affect the movement cost of the unit.",
             "To choose an action, the player has to click on one of his unit and drag it to destination (it can stay on the same case) and then attack an enemy in his ranged if wanted.",
-            "Choosing an invalid action will disqualify the player and end the game. For exemple if the player try to move a soldier on water, or if he try to move an enemy unit.",
+            "Choosing an invalid action will disqualify the player and end the game. For example if the player try to move a soldier on water, or if he try to move an enemy unit.",
             "The game is over when the player or the computer has no more unit to play or when the required number of turn is reached.",
             "This project is first year project IT student I did to help my pupils in my tutoring class. My role was to calculate all the possible actions for the player and realize exhaustive tests to ensure the game was working properly.",
-            "Lowatem asserts the ability to use arrays, loops, conditions and algorithms such as Manhattan distance calculation. "
+            "Lowatem asserts the ability to use arrays, loops, conditions and algorithms such as Manhattan distance calculation. For simplicity sake, I used ArrayList instead of arrays as it is easier to use but still could teach the same concepts as the logic doesn't change.",
+            "This project is Towa project's successor, they're really alike which is why I'm so proud to have done this, it shows how much I've learned and how much I've improved. I struggled with Towa, it took me ages to finish it and the code was a mess, but with Lowatem, I was able to finish it so fast AND the code is clean and efficient. It's always a pleasure to see how much we've improved and how much we've learned."
         ],
         "gitLink": "https://github.com/user/project-one",
-        "technologies": ["Java", "JavaFx","JUnit", "Netbeans"]
+        "technologies": ["Java", "JavaFx","JUnit", "Netbeans", "GitLab"]
+    },
+    {
+        "id": "Labyrinth Game",
+        "title": "Labyrinth Game",
+        "date": "September 2024",
+        "shortDescription": "A Java Labyrinth game displayed with JavaFx where the player has to find the exit of a labyrinth",
+        "images": ["/portfolio/img/Labyrinth/Labyrinth.png", "/portfolio/img/Labyrinth/Labyrinth-newRooms.png", "/portfolio/img/Labyrinth/Labyrinth-stairs.png", "/portfolio/img/Labyrinth/Labyrinth-dragon.png","/portfolio/img/Labyrinth/Labyrinth-paths.png","/portfolio/img/Labyrinth/Labyrinth-monsters.png"],
+        "fullDescriptions": [
+            "The Labyrinth Game is a Java game displayed with JavaFx where the player has to find the exit of a labyrinth",
+            "The labyrinth is composed of floors, rooms, walls, stairs and monsters. The player can move freely from one room to another as long as there's no wall blocking the way. The stairs give access to the direct floor below or above. The monsters are moving randomly in the labyrinth, except for the terrifying dragon that follows the shortest path to the hero. They can and they will kill the player if they collide. There's exactly one entry and one exit in the labyrinth.",
+            "In this game, the light is dynamically calculated based on the player's position and the walls (the light won't go through walls) and it's combined with a system of fog of war, the player can only see the rooms he visited. There's two highlighted paths, the blue one is the absolute shortest path to the exit, starting from the entry to the exit, and the yellow one is the shortest from the player's position to the exit.",
+            "The floors are charged from .txt files, it's modify the already existing floors or create new ones. Incorrect floors won't be added though.",
+            "To play, we just have to move the player with the arrow keys. To go upstairs when on a stairs, we have to press the 'M' key(Monter) and 'D' to go downstairs (Descendre). The game ends when the player reaches the exit or when he dies.",
+            "In order to realize this project, I had to apply my Java skills, using files, data structures and Object Oriented Programming concepts such as inheritance and polymorphism for all the characters ARE characters, just with slightly different behaviors (A dragon is a monster, just that his deplacement isn't random). I also had to implement Dijkstra's algorithm and Breadth First Search. They were used to calculate the shortest path to the exit and the dragon's path, the shortest path between the player and the exit, then finally when precalculating the distance between every room, in order to calculate the lighting with less resources. Every resources consuming algorithm was optimized to be as fast as possible and did as much as possible in the initialization phase, in order to eliminate in-game latency.",
+            "The Labyrinth game is one of my favourite project, it was so fun to code feature by features and being able to play a game that continuously evolves. What I love the most is that it takes everything I learned before in OOP and algorithms and shove it in a single project. I could see how much I've learned and how much I've improved. When you spend your time playing your own game, you know you've done something decent."
+        ],
+        "gitLink": "https://github.com/user/project-one",
+        "technologies": ["Java", "JavaFx","JUnit", "Netbeans", "JUnit", "GitLab"]
     },
     {
         "id": "Graph Viewer",
         "title": "Graph Viewer",
         "date": "May 2024",
-        "shortDescription": "",
-        "images": ["/portfolio/img/GraphViewer/us-migration-bundle.jpg", "/portfolio/img/GraphViewer/us-migration-spanningTree.jpg", "/portfolio/img/GraphViewer/us-migration.jpg", "/portfolio/img/GraphViewer/ubc.jpg", "/portfolio/img//GraphViewer/ubc-spanningTree.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg"],
+        "shortDescription": "A simple Java application to visualize a graph, its minimum spanning tree and the bundle graph",
+        "images": ["/portfolio/img/GraphViewer/us-migration-bundle.jpg", "/portfolio/img/GraphViewer/us-migration-spanningTree.jpg", "/portfolio/img/GraphViewer/us-migration.jpg", "/portfolio/img/GraphViewer/ubc.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg"],
         "fullDescriptions": [
             "The graph viewer is a JavaFx application that allows the user to visualize a graph, its minimum spanning tree and the bundle graph, which is a graph that contains all the minimum spanning trees of the original graph.",
+            "We can can choose between different graphs to visualize, such as the US migration graph or the UBC graph. Then we can choose how to display it",
             "The graphs are loaded from files that each contains the nodes and the edges of the graph. The user can also create a graph by adding nodes and edges manually.",
-            "To realize this project, I had to understand graph theory. This project is using Dijkstra's algorithm to find the minimum spanning tree and the bundle graph. It also uses Breadth First Search to find the connected components of the graph.",
+            "To realize this project, I had to apply my graph theory classes. First thing was to create an implementation of graphs, then I coded and implemented Dijkstra's algorithm to find the shortest path, Prim's algorithm to calculate the minimum spanning tree and to bundle the graph I used Breadth First Search. I did all of that using Object Oriented Programming concepts such as abstraction and inheritance, encapsulation, etc. I worked with files in Java and tests to ensure the correctness of the algorithms and graphs. ",
+            "My very goal in this project was to have the best algorithms possible, the graphs calculations had to be fast and efficient. At first, it took 12 seconds to display the minimum spanning tree as it wasn't optimized but now it's instantaneous. That research of optimization was really interesting and I learned a lot about data structures and algorithms.",
             "This project was such an incredible way to practice my graph theory knowledge, being able to withstand our direct production, success and failure is awesome."
         ],
         "gitLink": "https://github.com/user/project-two",
-        "technologies": ["JavaFx", "Java", "JUnit", "Netbeans"]
+        "technologies": ["JavaFx", "Java", "JUnit", "Netbeans", "GitLab"]
+    },
+    {
+        "id": "IUT Pixel War",
+        "title": "IUT Pixel War",
+        "date": "May 2024",
+        "shortDescription": "A Pixel War website, drawing on a shared canvas pixel by pixel in real time with many users",
+        "images": ["/portfolio/img/PixelWar/pixelWar.gif", "/portfolio/PixelWar/pixelWar-empty.jpg", "/portfolio/img/PixelWar/pixelWarBeginning.jpg", "/portfolio/img/PixelWar/pixelWar-FirstBots.jpg", "/portfolio/img/PixelWar/pixelWar-TeamWar.jpg", "/portfolio/img/PixelWar/pixelWar-bruteForce.jpg"],
+        "fullDescriptions": [
+            "IUT Pixel War is a website where registered users can draw pixel in real time on a canvas.",
+            "It started with an empty black canvas before we modified it. In order to do a modification, we first need to identify, then choose a team. The pixel is drawn with the user's chosen color at the mouse position. We can draw a pixel every 15 seconds",
+            "Trying to modify the canvas too much time while the timer is not reset will result in a temporary ban.",
+            "This project was really fun to do and to see. We enjoyed being able to express our creativity and to see the result of our work in real time (always a pleasure to really see something concrete and working).",
+            "We all started to simply draw pixel, until the first bots came in the game and then the war began. Users were sharing their accounts to let the bots draw faster, team war started, until the brute force came in to steal every account.",
+            "This project was such an amazing journey, that can be seen in the how we put so much passion in the canvas. This is best way to learn about Javascript and web API with Swagger. This project made learn so much about how data is exchanged and between the client and the server. I learned how to use the different request methods such as GET, POST, PUT, etc... and how to use the different status code to handle the request. I enjoyed practicing my Javascript skills, such as the async function, the fetch API or the canvas API."
+        ],
+        "gitLink": "https://github.com/user/project-two",
+        "technologies": ["JavaScript", "Swagger", "Html/CSS", "JSON", "VS Code"]
+    },
+    {
+        "id": "UniDeck Build Duel",
+        "title": "UniDeck Build Duel",
+        "date": "April 2024",
+        "shortDescription": "A C# .NET turn-based multiplayer card game where you try to build the best University",
+        "images": ["/portfolio/img/UniDeckBuild/unideckBuild-play.jpg","/portfolio/img/UniDeckBuild/unideckBuild.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-1.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-2.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-3.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-4.jpg","/portfolio/img/UniDeckBuild/unideckBuild-5.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-restart.jpg"],
+        "fullDescriptions": [
+            "UniDeck Build Duel is a turn-based multiplayer card game where you try to build the best University.",
+            "The game starts by defining a number of turn and the two player's name.",
+            "Each player has a deck of different building cards. Each building has a cost, a type and certain of them has an effect. The text box describes what has to be done or what is happening. There's also a list of the available effects that'll be applied if the associated card is played",
+            "To play, we just have to click on the card we want to play, which will construct the building if the required resources are in the player's hand (the classroom has no required resources for example, while some requires funding). Then if a card played has an effect, it'll be described in the text box to explain what the effect is, or how to use it. When the player can't play any cards or if he wants, he can switch to the discard phase to discard a card (which can be retrieved later thanks to some cards effect) and or end his turn.",
+            "This project required logic, algorithmic skills, Object Oriented Programming efficiency and most importantly, a good understanding of the C# .Net framework. The software's architecture. In order to structure and design the game, I used UML diagrams to see the bigger picture and have a full idea of what to do.",
+            "I struggled when I started the project, I had difficulties with .NET, but that's the magic of practice, it makes us better at what we do, so I enjoyed coding this project more and more as I progressed. I'm proud of the result, It's always exciting to see what we produced (especially when it works) and I'm happy to have learned so much from this fun project."
+        ],
+        "gitLink": "https://github.com/user/project-two",
+        "technologies": ["C#", ".NET", "Visual Studio", "GitLab"]
+    },
+    {
+        "id": "Odomo",
+        "title": "Odomo",
+        "date": "October 2023",
+        "shortDescription": "A small meteorological station that displays the temperature, humidity and pressure coded in Java",
+        "images": ["/portfolio/img/Odomo/Odomo.jpg"],
+        "fullDescriptions": [
+            "The Odomo project consists of coding the program of a small meteorological station.", 
+            "My role was to code its main features. Such as displaying data, like temperature, humidity and pressure. It also has an histogram that holds the historic of the temperature.",
+            "This project allowed me to discover an optimal use of arrays through loops but also not to stay on a linear thinking method by teaching me to go through the arrays backwards but especially to perform tasks such as coding functions without real indications and thus teach me to be enterprising.",
+            "Thinking back on this project, it was a nice entry point giving me solid bases to programming."
+        ],
+        "gitLink": "https://github.com/user/project-two",
+        "technologies": ["Java", "Netbeans"]
     }
 ]

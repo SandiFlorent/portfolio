@@ -9,14 +9,13 @@
 }
 
 h2#project-date {
-    color: #60A5FA; /* A gray color for the date text */
+    color: #aa7dce; /* A gray color for the date text */
 }
 
 #project-technologies{
-    justify-content: center;
     gap: 0.5rem;
     margin-top: 3rem;
-    color:  #60A5FA;;
+    color:  #607196;
 }
 
 #project-details {
