@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch the projects JSON file
-    fetch("../project/projects.json")
+    fetch("project/projects.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to fetch projects JSON");
@@ -57,5 +57,5 @@ document.addEventListener("DOMContentLoaded", function () {
 // Navigate to project details
 function viewProject(projectId) {
     localStorage.setItem("selectedProjectId", projectId);
-    window.location.href = "project-details.html";
+    window.location.href = "/html/project-details.html";
 }
