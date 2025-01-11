@@ -4,7 +4,7 @@
         "title": "Bibilava.io",
         "shortDescription": "A multiplayer unity game inspired by the famous game slither.io",
         "date": "January 2025",
-        "images": ["../img/Bibilava.io/bibilava.io_multi.jpg", "../img/Bibilava.io/bibilava.io_connexion.jpg", "../img/Bibilava.io/bibilava.io_solo.jpg", "../img/Bibilava.io/bibilava.io_multi.jpg"],
+        "images": ["/portfolio/img/Bibilava.io/bibilava.io_multi.jpg", "../img/Bibilava.io/bibilava.io_connexion.jpg", "../img/Bibilava.io/bibilava.io_solo.jpg", "../img/Bibilava.io/bibilava.io_multi.jpg"],
         "fullDescriptions": [
             "Bibilava.io is a multiplayer game inspired by the famous game slither.io.", 
             "The goal is to eat the most food to grow up and be the biggest snake (each apple makes the snake grow by one).", 

@@ -57,5 +57,5 @@ document.addEventListener("DOMContentLoaded", function () {
 // Navigate to project details
 function viewProject(projectId) {
     localStorage.setItem("selectedProjectId", projectId);
-    window.location.href = "/html/project-details.html";
+    window.location.href = "/portfolio/html/project-details.html";
 }
