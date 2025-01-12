@@ -410,6 +410,10 @@ a img:hover {
 
 }
 
+#project-technologies {
+    flex-wrap: wrap;
+}
+
 
 @media (min-width: 769px) {
     .aboutMe{
