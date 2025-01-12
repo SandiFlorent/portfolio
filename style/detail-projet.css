@@ -9,7 +9,8 @@
 }
 
 h2#project-date {
-    color: #aa7dce; /* A gray color for the date text */
+    color: #aa7dce;
+    font-weight: 000;
 }
 
 #project-technologies{

@@ -21,7 +21,7 @@
         "id": "Lowatem",
         "title": "Lowatem",
         "date": "December 2024",
-        "shortDescription": "A Java turn-based board game",
+        "shortDescription": "A Java turn-based board game where we try to defeat the enemy with our pawns",
         "images": ["/portfolio/img/Lowatem/Lowatem-2.png", "/portfolio/img/Lowatem/Lowatem-1.png", "/portfolio/img/Lowatem/Lowatem-FailedAction.jpg"],
         "fullDescriptions": [
             "Lowatem is a turn-based board game using JavaFx where player fights with their pawns to defeat the enemy.",
@@ -41,7 +41,7 @@
         "title": "Labyrinth Game",
         "date": "September 2024",
         "shortDescription": "A Java Labyrinth game displayed with JavaFx where the player has to find the exit of a labyrinth",
-        "images": ["/portfolio/img/Labyrinth/Labyrinth.png", "/portfolio/img/Labyrinth/Labyrinth-newRooms.png", "/portfolio/img/Labyrinth/Labyrinth-stairs.png", "/portfolio/img/Labyrinth/Labyrinth-dragon.png","/portfolio/img/Labyrinth/Labyrinth-paths.png","/portfolio/img/Labyrinth/Labyrinth-monsters.png"],
+        "images": ["/portfolio/img/Labyrinth/Labyrinth.jpg", "/portfolio/img/Labyrinth/Labyrinth-newRooms.jpg", "/portfolio/img/Labyrinth/Labyrinth-stairs.jpg", "/portfolio/img/Labyrinth/Labyrinth-dragon.jpg","/portfolio/img/Labyrinth/Labyrinth-paths.jpg","/portfolio/img/Labyrinth/Labyrinth-monsters.jpg"],
         "fullDescriptions": [
             "The Labyrinth Game is a Java game displayed with JavaFx where the player has to find the exit of a labyrinth",
             "The labyrinth is composed of floors, rooms, walls, stairs and monsters. The player can move freely from one room to another as long as there's no wall blocking the way. The stairs give access to the direct floor below or above. The monsters are moving randomly in the labyrinth, except for the terrifying dragon that follows the shortest path to the hero. They can and they will kill the player if they collide. There's exactly one entry and one exit in the labyrinth.",
@@ -76,7 +76,7 @@
         "title": "IUT Pixel War",
         "date": "May 2024",
         "shortDescription": "A Pixel War website, drawing on a shared canvas pixel by pixel in real time with many users",
-        "images": ["/portfolio/img/PixelWar/pixelWar.gif", "/portfolio/PixelWar/pixelWar-empty.jpg", "/portfolio/img/PixelWar/pixelWarBeginning.jpg", "/portfolio/img/PixelWar/pixelWar-FirstBots.jpg", "/portfolio/img/PixelWar/pixelWar-TeamWar.jpg", "/portfolio/img/PixelWar/pixelWar-bruteForce.jpg"],
+        "images": ["/portfolio/img/PixelWar/pixelWar.gif", "/portfolio/img/PixelWar/pixelWar-empty.jpg", "/portfolio/img/PixelWar/pixelWarBeginning.jpg", "/portfolio/img/PixelWar/pixelWar-FirstBots.jpg", "/portfolio/img/PixelWar/pixelWar-TeamWar.jpg", "/portfolio/img/PixelWar/pixelWar-bruteForce.jpg"],
         "fullDescriptions": [
             "IUT Pixel War is a website where registered users can draw pixel in real time on a canvas.",
             "It started with an empty black canvas before we modified it. In order to do a modification, we first need to identify, then choose a team. The pixel is drawn with the user's chosen color at the mouse position. We can draw a pixel every 15 seconds",
