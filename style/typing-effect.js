@@ -1,4 +1,4 @@
-const textArray = ["Junior Developer ", "OOP lover ", "Video game player ", "Pen Pineapple Apple Pen"]; // Array of texts to display
+const textArray = ["Junior Developer ", "OOP lover ", "Video game player ", "Pen Pineapple Apple Pen "]; // Array of texts to display
     const typingSpeed = 150; // Speed of typing
     const deletingSpeed = 100; // Speed of deleting
     const delayBetweenTexts = 1000; // Delay before typing new text
