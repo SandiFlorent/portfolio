@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const projectId = localStorage.getItem("selectedProjectId");
     if (!projectId) return;
 
-    fetch("/project/projects.json") 
+    fetch("project/projects.json") 
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

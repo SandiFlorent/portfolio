@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch the projects JSON file
-    fetch("/project/projects.json")
+    fetch("project/projects.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to fetch projects JSON");
