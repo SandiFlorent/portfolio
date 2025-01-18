@@ -7,6 +7,7 @@
     <title>Sandi's portfolio</title>
     <link rel="stylesheet" href="style/styles.css">
     <link rel="icon" href="/portfolio/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style/typing-effect.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
     <header class="sticky-navbar">
         <nav>
             <ul>
-                <li><a href="#home"> <img src="/portfolio/img/home_button.png" alt=""> </a></li>
+                <li><a href="#home"> <img src="../img/home_button.png" alt=""> </a></li>
                 <li><a href="#work">Projects</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -38,6 +39,10 @@
         <section id="home" class="hero">
             <h1>FLORENT SANDI</h1>
             <p>Computer science student</p>
+            <div class="typing-effect">
+                <span id="typed-text"></span>
+                <span class="cursor">|</span>
+            </div>
             <a href="#about" class="flying-circle">
                 <span class="arrow">↓</span>
             </a>
@@ -93,6 +98,7 @@
     <!-- Link to the JavaScript file -->
     <script src="project/projects.js"></script>
     <script src="style/script.js"></script>
+    <script src="style/typing-effect.js" ></script>
 </body>
 
 </html>

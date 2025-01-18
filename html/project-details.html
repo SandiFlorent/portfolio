@@ -45,7 +45,7 @@
     </footer>
 
     <!-- Link to the JavaScript file -->
-    <script src="../project/projects.js"></script>
+    <script src="/project/projects.js"></script>
 
 </body>
 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const projectId = localStorage.getItem("selectedProjectId");
     if (!projectId) return;
 
-    fetch("../project/projects.json")  // Adjust this path if needed
+    fetch("/project/projects.json")  // Adjust this path if needed
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
