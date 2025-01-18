@@ -42,3 +42,17 @@ footer {
 a, a:visited {
     color: 60A5FA
 }
+
+img {
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#project-details img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#project-images {
+    padding-top: 20px;
+}
