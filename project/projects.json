@@ -1,10 +1,30 @@
 [
     {
+        "id": "RobotLeague",
+        "title": "RobotLeague",
+        "shortDescription": "A Symfony webapp to manage robot football championships",
+        "date": "January 2025",
+        "images": ["/portfolio/img/RobotLeague/RobotLeague0.png", "/portfolio/img/RobotLeague/RobotLeague2.png", "/portfolio/img/RobotLeague/RobotLeague3.png", "/portfolio/img/RobotLeague/RobotLeague4.png"],
+        "fullDescriptions": [
+            "RobotLeague is a Symfony webapp to manage robot football championships.",  
+            "The website allows full management of the championship, from the creation of the championship to the management of the teams and the matches.",
+            "The idea is that a user registers his team on the website, then the public can see the outcome or updates of any match in any championship in real time.",
+            "To begin with, a user has to register and then the admin can grant him the organizer role. The organizer can then create a championship, create time slots and fields on which a match could be played, validate teams and automatically generate the full championship. The organizer can also update the score of the match and the website will automatically update the ranking of the championship. For example in a match between two teams, the organizer can update the goals of the blue team to 3 and set the victory to the blue team, which will be automatically updated in the ranking.",
+            "A registered user can create a team in a chosen championship and inscribe his teammates in it. They can only inscribe one team per championship.",
+            "The public can only see the outcome of the matches and the ranking of the championship. A user can see and do what the public can, the same goes for the organizer and the user or the admin with the organizer role.",
+            "This is the biggest project I've done so far, it was a real challenge to do it, but it was so fun to do. We did this project with the agile method and fully in autonomy. The project was divided into 3 sprints. Each sprint was 3 days long. We discussed with the client to know what he wanted, we did the analysis, the conception, the realization, the database and the tests. We also produced a full documentation on how to use or continue the project. We also did demos to the Product Owner at the end of each sprint to show him advancements and have some feedback.",
+            "I learned so much on agile method and project management, on Symfony and its components, on how databases interacts with the app to make it more efficient and secure. We did everything from scratch and used the git board to manage the project.",
+            "I might have hated doing web projects before, but RobotLeague made me realize how much fun it is. If you're reading this and have some coop training (Alternance), internships or job offers, just know that my contacts are down below👀!" 
+        ],
+        "gitLink": "https://github.com/SandiFlorent/Bibilava.io",
+        "technologies": ["phpMyAdmin", "mySql", "SQL", "Symfony", "php", "GitHub","Html/CSS" ,  "Twig", "Tailwind", "JavaScript", "VS Code", "python", "SqlAlchemy"]
+    },
+    {
         "id": "Bibilava.io",
         "title": "Bibilava.io",
         "shortDescription": "A Unity multiplayer game inspired by the famous slither.io",
         "date": "January 2025",
-        "images": ["../img/Bibilava.io/bibilava.io_multi.jpg", "../img/Bibilava.io/bibilava.io_connexion.jpg", "../img/Bibilava.io/bibilava.io_solo.jpg", "../img/Bibilava.io/bibilava.io_multi.jpg"],
+        "images": ["/portfolio/img/Bibilava.io/bibilava.io_multi.jpg", "/portfolio/img/Bibilava.io/bibilava.io_connexion.jpg", "/portfolio/img/Bibilava.io/bibilava.io_solo.jpg", "/portfolio/img/Bibilava.io/bibilava.io_multi.jpg"],
         "fullDescriptions": [
             "Bibilava.io is a multiplayer game inspired by the famous game slither.io.", 
             "The goal is to eat the most food to grow up and be the biggest snake (each apple makes the snake grow by one).", 
@@ -22,7 +42,7 @@
         "title": "Lowatem",
         "date": "December 2024",
         "shortDescription": "A Java turn-based board game where we try to defeat the enemy with our pawns",
-        "images": ["../img/Lowatem/Lowatem-2.png", "../img/Lowatem/Lowatem-1.png", "../img/Lowatem/Lowatem-FailedAction.jpg"],
+        "images": ["/portfolio/img/Lowatem/Lowatem-2.png", "/portfolio/img/Lowatem/Lowatem-1.png", "/portfolio/img/Lowatem/Lowatem-FailedAction.jpg"],
         "fullDescriptions": [
             "Lowatem is a turn-based board game using JavaFx where player fights with their pawns to defeat the enemy.",
             "In this game, a player (Red) is against the computer (Black). There's many type of units, soldier, plane, boat, etc... Each unit has a different movement range and cost, attack range, damage and health. Also according to the unit type, it can move on different field (boat only on water, soldier on land, plane everywhere, etc...). Each case also has an altitude, which affect the movement cost of the unit.",
@@ -41,7 +61,7 @@
         "title": "Labyrinth Game",
         "date": "September 2024",
         "shortDescription": "A Java Labyrinth game displayed with JavaFx where the player has to find the exit of a labyrinth",
-        "images": ["../img/Labyrinth/Labyrinth.jpg", "../img/Labyrinth/Labyrinth-newRooms.jpg", "../img/Labyrinth/Labyrinth-stairs.jpg", "../img/Labyrinth/Labyrinth-dragon.jpg","../img/Labyrinth/Labyrinth-paths.jpg","../img/Labyrinth/Labyrinth-monsters.jpg"],
+        "images": ["/portfolio/img/Labyrinth/Labyrinth.jpg", "/portfolio/img/Labyrinth/Labyrinth-newRooms.jpg", "/portfolio/img/Labyrinth/Labyrinth-stairs.jpg", "/portfolio/img/Labyrinth/Labyrinth-dragon.jpg","/portfolio/img/Labyrinth/Labyrinth-paths.jpg","/portfolio/img/Labyrinth/Labyrinth-monsters.jpg"],
         "fullDescriptions": [
             "The Labyrinth Game is a Java game displayed with JavaFx where the player has to find the exit of a labyrinth",
             "The labyrinth is composed of floors, rooms, walls, stairs and monsters. The player can move freely from one room to another as long as there's no wall blocking the way. The stairs give access to the direct floor below or above. The monsters are moving randomly in the labyrinth, except for the terrifying dragon that follows the shortest path to the hero. They can and they will kill the player if they collide. There's exactly one entry and one exit in the labyrinth.",
@@ -59,7 +79,7 @@
         "title": "Graph Viewer",
         "date": "May 2024",
         "shortDescription": "A simple Java application to visualize a graph, its minimum spanning tree and the bundle graph",
-        "images": ["../img/GraphViewer/us-migration-bundle.jpg", "../img/GraphViewer/us-migration-spanningTree.jpg", "../img/GraphViewer/us-migration.jpg", "../img/GraphViewer/ubc.jpg", "../img/GraphViewer/ubc-spanningTree.jpg", "../img/GraphViewer/ubc-spanningTree.jpg"],
+        "images": ["/portfolio/img/GraphViewer/us-migration-bundle.jpg", "/portfolio/img/GraphViewer/us-migration-spanningTree.jpg", "/portfolio/img/GraphViewer/us-migration.jpg", "/portfolio/img/GraphViewer/ubc.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg"],
         "fullDescriptions": [
             "The graph viewer is a JavaFx application that allows the user to visualize a graph, its minimum spanning tree and the bundle graph, which is a graph that contains all the minimum spanning trees of the original graph.",
             "We can can choose between different graphs to visualize, such as the US migration graph or the UBC graph. Then we can choose how to display it",
@@ -76,7 +96,7 @@
         "title": "IUT Pixel War",
         "date": "May 2024",
         "shortDescription": "A Pixel War website, drawing on a shared canvas pixel by pixel in real time with many users",
-        "images": ["../img/PixelWar/pixelWar.gif", "../img/PixelWar/pixelWar-empty.jpg", "../img/PixelWar/pixelWarBeginning.jpg", "../img/PixelWar/pixelWar-FirstBots.jpg", "../img/PixelWar/pixelWar-TeamWar.jpg", "../img/PixelWar/pixelWar-bruteForce.jpg"],
+        "images": ["/portfolio/img/PixelWar/pixelWar.gif", "/portfolio/img/PixelWar/pixelWar-empty.jpg", "/portfolio/img/PixelWar/pixelWarBeginning.jpg", "/portfolio/img/PixelWar/pixelWar-FirstBots.jpg", "/portfolio/img/PixelWar/pixelWar-TeamWar.jpg", "/portfolio/img/PixelWar/pixelWar-bruteForce.jpg"],
         "fullDescriptions": [
             "IUT Pixel War is a website where registered users can draw pixel in real time on a canvas.",
             "It started with an empty black canvas before we modified it. In order to do a modification, we first need to identify, then choose a team. The pixel is drawn with the user's chosen color at the mouse position. We can draw a pixel every 15 seconds",
@@ -93,7 +113,7 @@
         "title": "UniDeck Build Duel",
         "date": "April 2024",
         "shortDescription": "A C# .NET turn-based multiplayer card game where you try to build the best University",
-        "images": ["../img/UniDeckBuild/unideckBuild-play.jpg","../img/UniDeckBuild/unideckBuild.jpg", "../img/UniDeckBuild/unideckBuild-1.jpg", "../img/UniDeckBuild/unideckBuild-2.jpg", "../img/UniDeckBuild/unideckBuild-3.jpg", "../img/UniDeckBuild/unideckBuild-4.jpg","../img/UniDeckBuild/unideckBuild-5.jpg", "../img/UniDeckBuild/unideckBuild-restart.jpg"],
+        "images": ["/portfolio/img/UniDeckBuild/unideckBuild-play.jpg","/portfolio/img/UniDeckBuild/unideckBuild.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-1.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-2.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-3.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-4.jpg","/portfolio/img/UniDeckBuild/unideckBuild-5.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-restart.jpg"],
         "fullDescriptions": [
             "UniDeck Build Duel is a turn-based multiplayer card game where you try to build the best University.",
             "The game starts by defining a number of turn and the two player's name.",
@@ -110,7 +130,7 @@
         "title": "Odomo",
         "date": "October 2023",
         "shortDescription": "A small meteorological station that displays the temperature, humidity and pressure coded in Java",
-        "images": ["../img/Odomo/Odomo.jpg"],
+        "images": ["/portfolio/img/Odomo/Odomo.jpg"],
         "fullDescriptions": [
             "The Odomo project consists of coding the program of a small meteorological station.", 
             "My role was to code its main features. Such as displaying data, like temperature, humidity and pressure. It also has an histogram that holds the historic of the temperature.",

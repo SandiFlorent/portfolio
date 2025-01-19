@@ -39,6 +39,10 @@ footer {
     margin-top: 0;
 }
 
+body>footer {
+    text-align: left;
+}
+
 a, a:visited {
     color: 60A5FA
 }
