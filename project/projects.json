@@ -16,7 +16,8 @@
             "I learned so much on agile method and project management, on Symfony and its components, on how databases interacts with the app to make it more efficient and secure. We did everything from scratch and used the git board to manage the project.",
             "I might have hated doing web projects before, but RobotLeague made me realize how much fun it is. If you're reading this and have some coop training (Alternance), internships or job offers, just know that my contacts are down below👀!" 
         ],
-        "gitLink": "https://github.com/SandiFlorent/Bibilava.io",
+        "gitLink": "https://github.com/SandiFlorent/Robot-League",
+        
         "technologies": ["phpMyAdmin", "mySql", "SQL", "Symfony", "php", "GitHub","Html/CSS" ,  "Twig", "Tailwind", "JavaScript", "VS Code", "python", "SqlAlchemy"]
     },
     {

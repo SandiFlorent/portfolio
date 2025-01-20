@@ -412,12 +412,12 @@ a img:hover {
     flex-wrap: wrap;
 }
 
-.container {
+.backgroundPic {
     position: absolute;
     inset: 0;
 }
 
-.container::before {
+.backgroundPic::before {
     content: "";
     position: absolute;
     inset: 0;
