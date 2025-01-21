@@ -430,15 +430,21 @@ a img:hover {
     mask-size: cover;
 }
 
+#banner h2{
+    padding: 24px;
+}
 
 
 @media (min-width: 969px) {
-    .aboutMe{
+    #about{
         height: 100vh;
     }
 }
 
 @media (max-width: 968px) {
+    #banner {
+        text-align: center;
+    }
     .aboutMe {
         flex-direction: column-reverse;
 

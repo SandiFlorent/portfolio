@@ -25,3 +25,8 @@
         max-width: 64px; /* Adjust the size of the images for smaller screens */
     }
 }
+
+#banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
