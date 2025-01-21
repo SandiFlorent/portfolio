@@ -1,0 +1,27 @@
+/* Banner container styling */
+#banner > div {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+  justify-content: center; /* Centers the images horizontally */
+  gap: 20px; /* Adds a gap between the images */
+  padding: 10px; 
+}
+
+/* Image styling */
+#banner img {
+    flex: 1 1 auto; /* Makes the images grow/shrink dynamically */
+    max-width: 86px; /* Optional: limit the max size of each image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the image fits within the set space */
+    transition: transform 0.3s; /* Smooth transition effect on hover */
+}
+
+#banner img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+@media (max-width: 968px) {
+    #banner img {
+        max-width: 64px; /* Adjust the size of the images for smaller screens */
+    }
+}

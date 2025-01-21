@@ -432,13 +432,13 @@ a img:hover {
 
 
 
-@media (min-width: 769px) {
+@media (min-width: 969px) {
     .aboutMe{
         height: 100vh;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     .aboutMe {
         flex-direction: column-reverse;
 
