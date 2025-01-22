@@ -1,0 +1,90 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #607196;
+}
+
+#more{
+    display: flex;
+    justify-content: center;
+}
+
+#more p, #more span, #more h3 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.languages, .hobbies {
+    padding: 20px;
+}
+
+
+
+
+.language-card, .hobby-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hobbies {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Flexible columns */
+    gap: 20px; /* Space between the cards */
+    padding: 20px;
+}
+
+
+
+
+.language-card span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.hobby-card {
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.hobby-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.hobby-card h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#more p{
+    color: gray;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+@media  (max-width: 968px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .languages, .hobbies {
+        padding: 10px;
+    }
+    .hobby-card {
+        max-width: 100%;
+    }   
+}
