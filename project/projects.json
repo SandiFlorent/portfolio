@@ -23,10 +23,11 @@
     {
         "id": "Bibilava.io",
         "title": "Bibilava.io",
-        "shortDescription": "A Unity multiplayer game inspired by the famous slither.io",
+        "shortDescription": "A C# Unity multiplayer game inspired by the famous slither.io",
         "date": "January 2025",
         "images": ["/portfolio/img/Bibilava.io/bibilava.io_multi.jpg", "/portfolio/img/Bibilava.io/bibilava.io_connexion.jpg", "/portfolio/img/Bibilava.io/bibilava.io_solo.jpg", "/portfolio/img/Bibilava.io/bibilava.io_multi.jpg"],
         "fullDescriptions": [
+            "Bibilava means snake in Malagasy! 🐍",
             "Bibilava.io is a multiplayer game inspired by the famous game slither.io.", 
             "The goal is to eat the most food to grow up and be the biggest snake (each apple makes the snake grow by one).", 
             "In a collision between two snakes, if they collide with their heads, the biggest snake eats the smallest one. If a player's head collides with another snake's body, the player dies and the other snake eats the player's body. You can also loose by colliding with the wall.",
@@ -96,7 +97,7 @@
         "id": "IUT Pixel War",
         "title": "IUT Pixel War",
         "date": "May 2024",
-        "shortDescription": "A Pixel War website, drawing on a shared canvas pixel by pixel in real time with many users",
+        "shortDescription": "A J.S and HTML/CSS Pixel War website, drawing on a shared canvas pixel by pixel in real time with many users",
         "images": ["/portfolio/img/PixelWar/pixelWar.gif", "/portfolio/img/PixelWar/pixelWar-empty.jpg", "/portfolio/img/PixelWar/pixelWarBeginning.jpg", "/portfolio/img/PixelWar/pixelWar-FirstBots.jpg", "/portfolio/img/PixelWar/pixelWar-TeamWar.jpg", "/portfolio/img/PixelWar/pixelWar-bruteForce.jpg"],
         "fullDescriptions": [
             "IUT Pixel War is a website where registered users can draw pixel in real time on a canvas.",
@@ -114,7 +115,7 @@
         "title": "UniDeck Build Duel",
         "date": "April 2024",
         "shortDescription": "A C# .NET turn-based multiplayer card game where you try to build the best University",
-        "images": ["/portfolio/img/UniDeckBuild/unideckBuild-play.jpg","/portfolio/img/UniDeckBuild/unideckBuild.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-1.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-2.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-3.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-4.jpg","/portfolio/img/UniDeckBuild/unideckBuild-5.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-restart.jpg"],
+        "images": ["/portfolio/img/UniDeckBuild/unideckBuild-Vid.gif","/portfolio/img/UniDeckBuild/unideckBuild.jpg",  "/portfolio/img/UniDeckBuild/unideckBuild-3.jpg", "/portfolio/img/UniDeckBuild/unideckBuild-restart.jpg"],
         "fullDescriptions": [
             "UniDeck Build Duel is a turn-based multiplayer card game where you try to build the best University.",
             "The game starts by defining a number of turn and the two player's name.",

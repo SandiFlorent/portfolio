@@ -70,6 +70,32 @@ body {
     padding: 2rem;
 }
 
+/* Filters styling */
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #60A5FA;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #aa7dce;
+}
+
+.filter-btn.clicked {
+    background-color: #23f0c7;
+}
+
+
 /* Projects Section */
 .projects-grid {
     display: grid;
