@@ -86,6 +86,7 @@
 .flag img{
     width: 94px;
     border: solid 2px black;
+    border-radius: 8px;
 }
 
 @media  (max-width: 968px) {

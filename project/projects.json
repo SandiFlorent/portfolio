@@ -4,7 +4,7 @@
         "title": "RobotLeague",
         "shortDescription": "A Symfony webapp to manage robot football championships",
         "date": "January 2025",
-        "images": ["/portfolio/img/RobotLeague/RobotLeague0.png", "/portfolio/img/RobotLeague/RobotLeague2.png", "/portfolio/img/RobotLeague/RobotLeague3.png", "/portfolio/img/RobotLeague/RobotLeague4.png"],
+        "images": ["/portfolio/img/RobotLeague/RobotLeagueVid.gif", "/portfolio/img/RobotLeague/RobotLeague4.png", "/portfolio/img/RobotLeague/RobotLeague5.png", "/portfolio/img/RobotLeague/RobotLeague6.png"],
         "fullDescriptions": [
             "RobotLeague is a Symfony webapp to manage robot football championships.",  
             "The website allows full management of the championship, from the creation of the championship to the management of the teams and the matches.",
@@ -62,7 +62,7 @@
         "title": "Labyrinth Game",
         "date": "September 2024",
         "shortDescription": "A Java Labyrinth game displayed with JavaFx where the player has to find the exit of a labyrinth",
-        "images": ["/portfolio/img/Labyrinth/Labyrinth.jpg", "/portfolio/img/Labyrinth/Labyrinth-newRooms.jpg", "/portfolio/img/Labyrinth/Labyrinth-stairs.jpg", "/portfolio/img/Labyrinth/Labyrinth-dragon.jpg","/portfolio/img/Labyrinth/Labyrinth-paths.jpg","/portfolio/img/Labyrinth/Labyrinth-monsters.jpg"],
+        "images": ["/portfolio/img/Labyrinth/Labyrinth-vid.gif", "/portfolio/img/Labyrinth/Labyrinth-dragon.jpg","/portfolio/img/Labyrinth/Labyrinth-paths.jpg","/portfolio/img/Labyrinth/Labyrinth-monsters.jpg"],
         "fullDescriptions": [
             "The Labyrinth Game is a Java game displayed with JavaFx where the player has to find the exit of a labyrinth",
             "The labyrinth is composed of floors, rooms, walls, stairs and monsters. The player can move freely from one room to another as long as there's no wall blocking the way. The stairs give access to the direct floor below or above. The monsters are moving randomly in the labyrinth, except for the terrifying dragon that follows the shortest path to the hero. They can and they will kill the player if they collide. There's exactly one entry and one exit in the labyrinth.",
@@ -80,7 +80,7 @@
         "title": "Graph Viewer",
         "date": "May 2024",
         "shortDescription": "A simple Java application to visualize a graph, its minimum spanning tree and the bundle graph",
-        "images": ["/portfolio/img/GraphViewer/us-migration-bundle.jpg", "/portfolio/img/GraphViewer/us-migration-spanningTree.jpg", "/portfolio/img/GraphViewer/us-migration.jpg", "/portfolio/img/GraphViewer/ubc.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg", "/portfolio/img/GraphViewer/ubc-spanningTree.jpg"],
+        "images": ["/portfolio/img/GraphViewer/graphs-vid.gif", "/portfolio/img/GraphViewer/us-migration-bundle.jpg", "/portfolio/img/GraphViewer/us-migration.jpg", "/portfolio/img/GraphViewer/ubc.jpg"],
         "fullDescriptions": [
             "The graph viewer is a JavaFx application that allows the user to visualize a graph, its minimum spanning tree and the bundle graph, which is a graph that contains all the minimum spanning trees of the original graph.",
             "We can can choose between different graphs to visualize, such as the US migration graph or the UBC graph. Then we can choose how to display it",
