@@ -54,6 +54,12 @@
     font-weight: bold;
 }
 
+.language-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .hobby-card {
     text-align: center;
     padding: 10px;
@@ -75,6 +81,11 @@
     color: gray;
     font-size: 1.1rem;
     letter-spacing: 1px;
+}
+
+.flag img{
+    width: 94px;
+    border: solid 2px black;
 }
 
 @media  (max-width: 968px) {
