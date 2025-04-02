@@ -1,5 +1,26 @@
 [
     {
+        "id": "Votator",
+        "title": "Votator",
+        "shortDescription": "A website to vote for a favourite categories and contestant",
+        "date": "Frebruary 2025",
+        "images": ["/portfolio/img/Votator/votator-video.gif"],
+        "fullDescriptions": [
+            "Votator is a website to vote for a favourite categories and contestant",
+            "The website is composed of a home page, the finished tournament page, the catagory vote and the contestant vote.",
+            "In the home page, we can either connect or as a connected user, change or avatar",
+            "In the finished tournament page, we can see the results of the previous tournaments and the winner of each category.",
+            "In the category vote, we can see the categories and vote for one of them. The category with the most votes will be the next tournament's category.",
+            "In the contestant vote, we can see the contestants and vote for one of them. The contestant with the most votes will be the winner of the tournament.",
+            "The contestant vote is divided into 4 rounds with first 16 contestants, then 8, then 4 and finally 2. The winner of each round will be the contestant with the most votes.",
+            "The website is fully responsive and works on all devices.",
+            "I truly think JavaScipt is flawed, but react and Typescript are great tools to work with. They changed my mind about front end development. Perhaps frameworks can change an entire experience."
+        ],
+        "gitLink": "",
+        
+        "technologies": ["React", "Typescript", "Webstorm", "Swagger", "Postman", "Github","HTML/CSS", "Bootstrap"]
+    },
+    {
         "id": "RobotLeague",
         "title": "RobotLeague",
         "shortDescription": "A Symfony webapp to manage robot football championships",
